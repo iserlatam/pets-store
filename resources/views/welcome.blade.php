@@ -35,6 +35,10 @@
             <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
                     <a href="{{ route('owners') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Owners</a>
                     <a href="{{ route('owners.show',['id'=>5]) }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Owner 5</a>
+                    <a href="{{ route('pets') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Pets</a>
+                    <a href="{{ route('pets.show', [
+                        'id' => 2
+                    ] ) }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Pets</a>
             </div>
 
             <div class="max-w-7xl mx-auto p-6 lg:p-8">

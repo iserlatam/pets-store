@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Our owners</title>
     <!-- Styles -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="bg-gray-800 p-10">
+<body class="bg-custom-orange p-10">
 
     <h1 class="mb-10 text-white text-4xl font-bold">
         Our owners
